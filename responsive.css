@@ -1,103 +1,98 @@
 @media screen and (max-width: 667px) {
+  nav .menu_bar {
+    display: none;
+  }
 
-    nav .menu_bar {
-        display: none;
-    }
-
-    body {
-        padding-left: 2rem;
-        padding-right: 2rem;
-    }
-
-    nav .logo_tag,
-    nav .theme_icon svg {
-        padding-bottom: 0;
-    }
+  body {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 }
 
-@media screen and (min-width: 667px) {
+@media screen and (min-width: 666px) {
+  nav .bar {
+    display: none;
+  }
 
-    nav .bar {
-        display: none;
-    }
-
-    nav .bar_window {
-        display: none;
-    }
-
-    html {
-        height: 100%;
-    }
+  nav .bar_window {
+    display: none;
+  }
 }
 
-@media screen and (max-width: 768px) {
-    main {
-        flex-direction: column-reverse;
-    }
+@media screen and (max-width: 770px) {
+  main {
+    flex-direction: column-reverse;
+    margin-top: 0;
+  }
 
-    main .img {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+  main .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-    main .img svg {
-        width: 15rem;
-    }
+  main .img svg {
+    width: 15rem;
+  }
 
-    main .content h1 {
-        font-size: 1.2rem;
-    }
+  main .content h1 {
+    font-size: 1.2rem;
+  }
 
-    main .content .para {
-        font-size: 0.8rem;
-    }
+  main .content .para {
+    font-size: 0.8rem;
+  }
+  body {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
 }
 
 @media screen and (max-width: 375px) {
-    main {
-        flex-direction: column-reverse;
-    }
+  main {
+    flex-direction: column-reverse;
+  }
 
-    main .img {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+  main .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-    main .img svg {
-        width: 10.5rem;
-    }
+  main .img svg {
+    width: 10.5rem;
+  }
 
-    main .content h1 {
-        font-size: 1.2rem;
-    }
+  main .content h1 {
+    font-size: 1.2rem;
+  }
 
-    main .content .para {
-        font-size: 0.8rem;
-    }
+  main .content .para {
+    font-size: 0.8rem;
+  }
 }
 
 @media screen and (max-width: 375px) {
-    main {
-        flex-direction: column-reverse;
-    }
+  main {
+    flex-direction: column-reverse;
+  }
 
-    main .img {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+  main .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-    main .img svg {
-        width: 10.5rem;
-    }
+  main .img svg {
+    width: 10.5rem;
+  }
 
-    main .content h1 {
-        font-size: 0.9rem;
-    }
+  main .content h1 {
+    font-size: 0.9rem;
+  }
 
-    main .content .para {
-        font-size: 0.8rem;
-    }
+  main .content .para {
+    font-size: 0.8rem;
+  }
 }
